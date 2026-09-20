@@ -5,47 +5,62 @@ Projeto de Engenharia de Dados desenvolvido para simular um fluxo completo de ve
 A solução utiliza Apache Kafka para mensageria, PostgreSQL como banco transacional e analítico, JSONL e Parquet para implementação da arquitetura Medalhão e Python para produtores, consumidores, pipelines e automações.
 
 # 1 Quick Start
-
+```powershell
 git clone kafka-postres-medallion-olap
 cd kafka-postgres-medallion-olap
-
+```
 # 2 Crie um ambiente virtual
-
+```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+```
 
 # 3 Instale as dependências
-
+```powershell
 pip install -r requirements.txt
+```
 
 # 4 Criar os arquivos de ambiente
-
+```powershell
 Copy-Item ".env.example" ".env"
 Copy-Item ".env.test.example" ".env.test"
+```
 
 # 5 Subir a infraestrutura
-
+```powershell
 docker compose up -d
+```
 
 # 6 Inicialize o banco
-
+```powershell
 python -m database.init_database
+```
 
 # 7 Execute em tempo real
 # terminal 1
+```powershell
 python -m consumer.consumer
+```
 
 # terminal 2
+```powershell
 python -m bronze.consumer_bronze
+```
 
 # terminal 3
+```powershell
 python -m producer.producer
+```
 
 # 8 Execute o pipeline batch
+```powershell
 python -m scripts.run_pipeline
+```
 
 # 9 Valide o resultado
+```powershell
 python -m scripts.validate_pipeline
+```
 
 ---
 
