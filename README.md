@@ -6,7 +6,7 @@ A solução utiliza Apache Kafka para mensageria, PostgreSQL como banco transaci
 
 # 1 Quick Start
 ```powershell
-git clone kafka-postres-medallion-olap
+git clone [kafka-postres-medallion-olap](https://github.com/caiofabio2798/kafka-postgres-medallion-olap)
 cd kafka-postgres-medallion-olap
 ```
 # 2 Crie um ambiente virtual
