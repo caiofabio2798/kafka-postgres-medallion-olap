@@ -1,0 +1,50 @@
+[
+  {
+    "id_produto": 1,
+    "produto": "Arroz 5kg",
+    "categoria": "Mercearia",
+    "preco": 24.90
+  },
+  {
+    "id_produto": 2,
+    "produto": "Feijão 1kg",
+    "categoria": "Mercearia",
+    "preco": 8.99
+  },
+  {
+    "id_produto": 3,
+    "produto": "Leite 1L",
+    "categoria": "Laticínios",
+    "preco": 4.79
+  },
+  {
+    "id_produto": 4,
+    "produto": "Café 500g",
+    "categoria": "Mercearia",
+    "preco": 18.90
+  },
+  {
+    "id_produto": 5,
+    "produto": "Sabão em pó",
+    "categoria": "Limpeza",
+    "preco": 15.50
+  },
+  {
+    "id_produto": 6,
+    "produto": "Refrigerante 2L",
+    "categoria": "Bebidas",
+    "preco": 9.99
+  },
+  {
+    "id_produto": 7,
+    "produto": "Frango kg",
+    "categoria": "Açougue",
+    "preco": 16.90
+  },
+  {
+    "id_produto": 8,
+    "produto": "Pão francês kg",
+    "categoria": "Padaria",
+    "preco": 14.99
+  }
+]

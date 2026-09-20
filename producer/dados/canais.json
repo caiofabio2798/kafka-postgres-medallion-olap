@@ -1,0 +1,14 @@
+[
+  {
+    "id_canal": 1,
+    "canal": "Loja Física"
+  },
+  {
+    "id_canal": 2,
+    "canal": "App"
+  },
+  {
+    "id_canal": 3,
+    "canal": "E-commerce"
+  }
+]

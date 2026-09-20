@@ -1,0 +1,125 @@
+
+# VARIÁVEIS DE AMBIENTE / SEGREDOS
+
+
+.env
+.env.*
+!.env.example
+!.env.test.example
+
+
+
+# AMBIENTE VIRTUAL PYTHON
+
+
+.venv/
+venv/
+env/
+
+
+
+# PYTHON
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+
+# JUPYTER
+
+
+.ipynb_checkpoints/
+
+
+
+# DADOS GERADOS PELO PIPELINE
+
+
+data/
+
+*.jsonl
+*.parquet
+
+
+
+# SQLITE / CONTROLE LOCAL
+
+
+controle/
+
+*.db
+*.sqlite
+*.sqlite3
+
+
+
+# ARQUIVOS LOCAIS / ANOTAÇÕES
+
+
+infos.txt
+
+
+
+# LOGS
+
+
+logs/
+*.log
+
+
+
+# VS CODE
+
+
+.vscode/
+
+
+
+# PYCHARM
+
+
+.idea/
+
+
+# SISTEMA OPERACIONAL
+
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+
+# TEMPORÁRIOS
+
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+
+# BUILD / DISTRIBUIÇÃO PYTHON
+
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+
+# COBERTURA / TESTES
+
+
+.coverage
+htmlcov/
+coverage.xml

@@ -1,0 +1,38 @@
+[
+  {
+    "id_loja": 1,
+    "nome_loja": "Loja 1",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "id_loja": 2,
+    "nome_loja": "Loja 2",
+    "cidade": "Campinas",
+    "estado": "SP"
+  },
+  {
+    "id_loja": 3,
+    "nome_loja": "Loja 3",
+    "cidade": "Curitiba",
+    "estado": "PR"
+  },
+  {
+    "id_loja": 4,
+    "nome_loja": "Loja 4",
+    "cidade": "Maringá",
+    "estado": "PR"
+  },
+  {
+    "id_loja": 5,
+    "nome_loja": "Loja 5",
+    "cidade": "Londrina",
+    "estado": "PR"
+  },
+  {
+    "id_loja": 85,
+    "nome_loja": "Loja 85",
+    "cidade": "Campo Grande",
+    "estado": "MS"
+  }
+]
