@@ -261,6 +261,39 @@ Para voltar ao ambiente padrão:
 Remove-Item Env:ENV_FILE -ErrorAction SilentlyContinue
 ```
 
+## Evidências de execução
+
+### Pipeline Medalhão e carga OLAP
+
+Execução das etapas Silver → Gold, geração das agregações analíticas e carga final no PostgreSQL OLAP.
+
+<p align="center">
+  <img src="docs/images/pipeline_execution.png"
+       alt="Execução do pipeline Medalhão e carga OLAP"
+       width="900">
+</p>
+
+### Validação do resultado
+
+Reconciliação final realizada no PostgreSQL após o teste isolado do pipeline.
+
+<p align="center">
+  <img src="docs/images/olap_validation.png"
+       alt="Validação dos registros na fato OLAP"
+       width="750">
+</p>
+
+Resultado validado:
+
+| Validação | Resultado |
+|---|---:|
+| Vendas OLTP | 21 |
+| Itens OLTP | 21 |
+| Eventos processados | 21 |
+| Registros OLAP | 21 |
+| Receita OLAP | R$ 857,30 |
+| Quantidade | 65 |
+
 ---
 
 ## Inicialização automática do banco
