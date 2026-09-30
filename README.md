@@ -153,7 +153,7 @@ Essa separação evita bloqueios e sincronização indevida de arquivos Parquet/
 
 ---
 
-## 1. Clone o repositório
+## Clone o repositório
 
 ### HTTPS
 
