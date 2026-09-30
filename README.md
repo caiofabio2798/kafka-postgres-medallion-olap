@@ -153,6 +153,21 @@ Essa separação evita bloqueios e sincronização indevida de arquivos Parquet/
 
 ---
 
+## 1. Clone o repositório
+
+### HTTPS
+
+```powershell
+git clone https://github.com/caiofabio2798/kafka-postgres-medallion-olap.git
+cd kafka-postgres-medallion-olap
+```
+
+### SSH
+```
+git clone git@github.com:caiofabio2798/kafka-postgres-medallion-olap.git
+cd kafka-postgres-medallion-olap
+```
+
 ## Instalação
 
 ### 1. Criar ambiente virtual
